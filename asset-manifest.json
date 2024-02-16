@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/marks-gate-24/static/css/main.f0b20c5e.css",
+    "main.js": "/marks-gate-24/static/js/main.6cb62039.js",
+    "index.html": "/marks-gate-24/index.html",
+    "main.f0b20c5e.css.map": "/marks-gate-24/static/css/main.f0b20c5e.css.map",
+    "main.6cb62039.js.map": "/marks-gate-24/static/js/main.6cb62039.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0b20c5e.css",
+    "static/js/main.6cb62039.js"
+  ]
+}
