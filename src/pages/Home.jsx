@@ -13,6 +13,7 @@ const exam = [
     { code: 'CS2', examname: 'Computer Science & I.T (Afternoon)', link: '/cs2'}
 ]
 
+const NOTIFICATION = 'Answer Key WILL be Updated Shortly'
 
 function Home() {
 
@@ -42,6 +43,9 @@ function Home() {
                                     </div>)
                             }  
                         </div>
+                        { NOTIFICATION && <div>
+                            ❗️❗️<Badge bg="warning" text="dark">{NOTIFICATION}</Badge>❗️❗️
+                        </div>}
                     </div>
                 </Col>
                 
