@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Gate Marks",
+  "name": "Calculate GATE Marks from your response",
   "icons": [
     {
       "src": "favicon.ico",
