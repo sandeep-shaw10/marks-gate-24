@@ -42,7 +42,7 @@ function Marks({ans}){
         setAnalysis(() => {
             return computation()
         })
-    }, [ans]);
+    }, [ans, computation]);
 
     return(
         <div style={{ padding: '8px 32px 48px' }}>
