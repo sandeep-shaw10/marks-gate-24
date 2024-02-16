@@ -4,22 +4,66 @@
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "16x16",
       "type": "image/x-icon"
     },
     {
       "src": "logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any"
+
     },
     {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "maskable_icon192",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "maskable_icon512",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
     }
   ],
-  "start_url": ".",
+  "scope": "https://sandeep-shaw10.github.io/marks-gate-24/",
+  "start_url": "https://sandeep-shaw10.github.io/marks-gate-24/",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "screenshots": [
+    {
+     "src": "s1.png",
+      "sizes": "1920x910",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Marks Analysis"
+    },
+    {
+      "src": "s2.png",
+       "sizes": "1920x910",
+       "type": "image/png",
+       "form_factor": "wide",
+       "label": "Answer Key Compare"
+     },
+     {
+      "src": "s3.png",
+       "sizes": "356x788",
+       "type": "image/png",
+       "label": "Marks Analysis"
+     },
+     {
+      "src": "s4.png",
+       "sizes": "355x791",
+       "type": "image/png",
+       "label": "Answer Key Compare"
+     }
+  ]
 }
