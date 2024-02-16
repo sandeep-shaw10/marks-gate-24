@@ -1,4 +1,4 @@
-import { answerKey, Section, Question } from './data';
+import { answerKey, Question } from './data';
 import Alert from 'react-bootstrap/Alert';
 import Form from 'react-bootstrap/Form';
 import Badge from 'react-bootstrap/Badge';

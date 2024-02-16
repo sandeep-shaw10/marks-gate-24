@@ -10,7 +10,7 @@ function Footer(){
             <Navbar.Collapse className="justify-content-center">
                 <Navbar.Text>
                 {`Made by  `}
-                <a href='https://github.com/sandeep-shaw10' target='_blank'>sandeep-shaw10</a>
+                <a href='https://github.com/sandeep-shaw10' target='_blank' rel="noreferrer">sandeep-shaw10</a>
                 </Navbar.Text>
             </Navbar.Collapse>
             </Container>

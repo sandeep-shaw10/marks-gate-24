@@ -2,13 +2,13 @@ import Button from 'react-bootstrap/Button';
 import Badge from 'react-bootstrap/Badge';
 import Stack from 'react-bootstrap/Stack';
 import { answerKey, Fullmarks, Question, Section } from './data';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { MCQAnalysis, MSQAnalysis, NATAnalysis, SectionAnalysis } from '../../utils/Analysis';
 
 
 function Marks({ans}){
 
-    const computation = () => {
+    const computation = useCallback(() => {
         const getMCQAnalysis = MCQAnalysis(answerKey, ans, Question.MCQ)
         const getMSQAnalysis = MSQAnalysis(answerKey, ans, Question.MSQ)
         const getNATAnalysis = NATAnalysis(answerKey, ans, Question.NAT)
@@ -34,7 +34,7 @@ function Marks({ans}){
             msq: getMSQAnalysis.posmsq.toFixed(2),
             nat: getNATAnalysis.posnat.toFixed(2)
         })
-    }
+    }, [ans])
 
     const [analysis, setAnalysis] = useState(computation())
 
