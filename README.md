@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# GATE Marks Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![coverage](https://img.shields.io/badge/version-1.0.0-cyan)
+[![coverage](https://img.shields.io/badge/website-click-red)](https://sandeep-shaw10.github.io/marks-gate-24)
 
-## Available Scripts
 
-In the project directory, you can run:
+This is a Progressive Web Application (PWA) designed to assist GATE 2024 aspirants in calculating their marks by comparing their answer key responses with the actual answer key.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Notification
+- Answer Key Status: `NOT Uploaded`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# DEMO
+- Unavailable
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# Features
+- ❌ No login or Account setup required
+- 📲 Installable and works Offline
+- 🔒 Your Response will be stored once entered and saved
+- ⌨️ Works seamlessly on multiple device
+- ⚖️ Comparison with actual answer keys side by side
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Usage
+### 1. Enter your own Answer Key Response:
 
-### `npm run eject`
+_(Once you save your response it will be stored even on page refresh)_
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Comparison with actual Answer Key:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 3. Viewing Marks Analysis:
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# GATE Papers
+- Data Science & Artificial Intelligence (DA)
+- Computer Science & Information Technology (Forenoon) (CS1)
+- Computer Science & Information Technology (Forenoon) (CS2)
 
-### Code Splitting
+# Installation
+- It can be installed directly from your web browser.
+- Simply visit the app URL on your device's web browser and follow the prompts to `INSTALL` it.
+- Once installed, the app will be accessible from your device's home screen and can be used `OFFLINE`.
+- `SAVE` your response as it will be stored in local storage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+# Technologies Used
+![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+# Copyrights
+The logo used in the appilcation belongs to [IISc Bangalore GATE 2024](https://gate2024.iisc.ac.in/) . 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# License
+This project is licensed under the [MIT License](./LICENSE).
