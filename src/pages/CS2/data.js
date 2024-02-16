@@ -52,7 +52,7 @@ const answerKey = [
     { no: "32",section: Section.TECH,  type:Question.NAT, marks: 1, negative: 0, A:0, B:0, C:0, D:0, roundOff: 0, lower:110, upper:110, mta: false },
     { no: "33",section: Section.TECH,  type:Question.NAT, marks: 1, negative: 0, A:0, B:0, C:0, D:0, roundOff: 0, lower:2040, upper:2040, mta: false },
     { no: "34",section: Section.TECH,  type:Question.NAT, marks: 1, negative: 0, A:0, B:0, C:0, D:0, roundOff: 1, lower:10.2, upper:10.2, mta: false },
-    { no: "35",section: Section.TECH,  type:Question.NAT, marks: 1, negative: 1/3, A:0, B:0, C:0, D:0, roundOff: 0, lower:7, upper:7, mta: false },
+    { no: "35",section: Section.TECH,  type:Question.NAT, marks: 1, negative: 0, A:0, B:0, C:0, D:0, roundOff: 0, lower:7, upper:7, mta: false },
     { no: "36",section: Section.TECH,  type:Question.MCQ, marks: 2, negative: 2/3, A:1, B:0, C:0, D:0, roundOff: null, lower:null, upper:null, mta: false },
     { no: "37",section: Section.TECH,  type:Question.MCQ, marks: 2, negative: 2/3, A:0, B:0, C:0, D:1, roundOff: null, lower:null, upper:null, mta: false },
     { no: "38",section: Section.TECH,  type:Question.MCQ, marks: 2, negative: 2/3, A:0, B:0, C:1, D:0, roundOff: null, lower:null, upper:null, mta: false },

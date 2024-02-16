@@ -82,9 +82,9 @@ function Answer({ans}){
                             { 
                                 (value.type === Question.MCQ || value.type === Question.MSQ) && <td>
                                     {
-                                        checkMCQMSQ(value, ans, key) === 1 ? <Badge bg='success'>Correct</Badge> :
-                                        checkMCQMSQ(value, ans, key) === -1 ? <Badge bg='danger'>Wrong</Badge> :
-                                        <Badge bg='warning' text="dark">Unattempted</Badge>
+                                        checkMCQMSQ(value, ans, key) === 1 ? `✅` :
+                                        checkMCQMSQ(value, ans, key) === -1 ? `❌` :
+                                        `⚠️`
                                     }
                                 </td>
                             } 
@@ -92,9 +92,9 @@ function Answer({ans}){
                             { 
                                 value.type === Question.NAT && <td>
                                 {
-                                    checkNAT(value, ans, key) === 1 ? <Badge bg='success'>Correct</Badge> :
-                                    checkNAT(value, ans, key) === -1 ? <Badge bg='danger'>Wrong</Badge> :
-                                    <Badge bg='warning' text="dark">Unattempted</Badge>
+                                    checkNAT(value, ans, key) === 1 ? `✅` :
+                                    checkNAT(value, ans, key) === -1 ? `❌` :
+                                    `⚠️`
                                 }
                             </td>
                             }
