@@ -1,21 +1,10 @@
-const Question = {
-    MCQ: "MCQ",
-    MSQ: "MSQ",
-    NAT: "NAT"
-}
-
-const Section = {
-    TECH: "Technical",
-    GA: "General Aptitude"
-}
+import { Question, Section } from "./common"
 
 const Fullmarks = 100
-
 const PAPERCODE = `CS1`
-
 const PAPERNAME = `Computer Science & I.T (Forenoon)`
-
 const SOURCE = `GOClasses`
+const LINK = `cs1`
 
 const answerKey = [
     { no: "1", section: Section.GA, type:Question.MCQ, marks: 1, negative: 1/3, A:0, B:1, C:0, D:0, roundOff: null, lower:null, upper:null, mta: false },
@@ -86,4 +75,7 @@ const answerKey = [
 ]
 
 
-export { answerKey, Section, Question, Fullmarks, PAPERCODE, PAPERNAME, SOURCE }
+const DATA = { answerKey, Fullmarks, PAPERCODE, PAPERNAME, SOURCE, LINK }
+
+
+export default DATA

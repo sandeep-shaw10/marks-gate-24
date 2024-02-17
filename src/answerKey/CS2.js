@@ -1,21 +1,11 @@
-const Question = {
-    MCQ: "MCQ",
-    MSQ: "MSQ",
-    NAT: "NAT"
-}
+import { Question, Section } from "./common"
 
-const Section = {
-    TECH: "Technical",
-    GA: "General Aptitude"
-}
 
 const Fullmarks = 100
-
-const PAPERCODE = `DA`
-
-const PAPERNAME = `Data Science & Artificial Intelligence`
-
+const PAPERCODE = `CS2`
+const PAPERNAME = `Computer Science & I.T (Afternoon)`
 const SOURCE = `GOClasses`
+const LINK = `cs2`
 
 const answerKey = [
     { no: "1", section: Section.GA, type:Question.MCQ, marks: 1, negative: 1/3, A:0, B:1, C:0, D:0, roundOff: null, lower:null, upper:null, mta: false },
@@ -44,7 +34,7 @@ const answerKey = [
     { no: "24",section: Section.TECH,  type:Question.MSQ, marks: 1, negative: 0, A:1, B:0, C:1, D:1, roundOff: null, lower:null, upper:null, mta: false },
     { no: "25",section: Section.TECH,  type:Question.MSQ, marks: 1, negative: 0, A:1, B:0, C:1, D:0, roundOff: null, lower:null, upper:null, mta: false },
     { no: "26",section: Section.TECH,  type:Question.MSQ, marks: 1, negative: 0, A:0, B:1, C:1, D:0, roundOff: null, lower:null, upper:null, mta: false },
-    { no: "27",section: Section.TECH,  type:Question.MSQ, marks: 1, negative: 0, A:0, B:0, C:1, D:1, roundOff: null, lower:null, upper:null, mta: false },
+    { no: "27",section: Section.TECH,  type:Question.MSQ, marks: 1, negative: 0, A:1, B:0, C:1, D:1, roundOff: null, lower:null, upper:null, mta: false },
     { no: "28",section: Section.TECH,  type:Question.MSQ, marks: 1, negative: 0, A:0, B:1, C:0, D:1, roundOff: null, lower:null, upper:null, mta: false },
     { no: "29",section: Section.TECH,  type:Question.MSQ, marks: 1, negative: 0, A:1, B:0, C:1, D:0, roundOff: null, lower:null, upper:null, mta: false },
     { no: "30",section: Section.TECH,  type:Question.NAT, marks: 1, negative: 0, A:0, B:0, C:0, D:0, roundOff: 0, lower:2, upper:2, mta: false },
@@ -86,4 +76,7 @@ const answerKey = [
 ]
 
 
-export { answerKey, Section, Question, Fullmarks, PAPERCODE, PAPERNAME, SOURCE }
+const DATA = { answerKey, Fullmarks, PAPERCODE, PAPERNAME, SOURCE, LINK }
+
+
+export default DATA

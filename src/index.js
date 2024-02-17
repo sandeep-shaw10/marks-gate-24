@@ -6,9 +6,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar'
 import Footer from './components/Footer';
 import App from './App';
-import DA from './pages/DA';
-import CS1 from './pages/CS1';
-import CS2 from './pages/CS2';
+import Papers from './pages/Papers';
+import DA_DATA from './answerKey/DA';
+import CS1_DATA from './answerKey/CS1';
+import CS2_DATA from './answerKey/CS2';
+// import TEST_DATA from './answerKey/TEST';
 import NotFound from './pages/NotFound';
 
 
@@ -21,9 +23,10 @@ root.render(
       <BrowserRouter basename="/marks-gate-24">
         <Routes>
           <Route path="/" element={<App />} />
-          <Route path="da" element={<DA/>} />
-          <Route path="cs1" element={<CS1/>} />
-          <Route path="cs2" element={<CS2/>} />
+          <Route path={DA_DATA.LINK} element={<Papers DATA={DA_DATA} />} />
+          <Route path={CS1_DATA.LINK} element={<Papers DATA={CS1_DATA} />} />
+          <Route path={CS2_DATA.LINK} element={<Papers DATA={CS2_DATA} />} />
+          {/* <Route path={TEST_DATA.LINK} element={<Papers DATA={TEST_DATA} />} /> */}
           <Route path="*" element={<NotFound/>} />
         </Routes>
       </BrowserRouter>

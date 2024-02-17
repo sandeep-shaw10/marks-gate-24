@@ -1,11 +1,11 @@
 import Table from 'react-bootstrap/Table';
 import Badge from 'react-bootstrap/Badge';
-import { answerKey, Section, Question } from './data';
+import { Section, Question } from '../../answerKey/common';
 import Button from 'react-bootstrap/Button';
 import countDecimal from '../../utils/countDecimal';
 
 
-function Answer({ans}){
+function Answer({ans, answerKey}){
 
     const checkMCQMSQ = (value, ans, key) => {
         if(ans[key].A || ans[key].B || ans[key].C || ans[key].D){

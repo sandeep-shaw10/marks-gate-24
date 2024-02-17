@@ -1,12 +1,12 @@
 import Button from 'react-bootstrap/Button';
 import Badge from 'react-bootstrap/Badge';
 import Stack from 'react-bootstrap/Stack';
-import { answerKey, Fullmarks, Question, Section } from './data';
+import { Question, Section } from '../../answerKey/common';
 import { useState, useEffect, useCallback } from 'react';
 import { MCQAnalysis, MSQAnalysis, NATAnalysis, SectionAnalysis } from '../../utils/Analysis';
 
 
-function Marks({ans}){
+function Marks({ans, answerKey, Fullmarks}){
 
     const computation = useCallback(() => {
         const getMCQAnalysis = MCQAnalysis(answerKey, ans, Question.MCQ)

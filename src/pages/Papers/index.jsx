@@ -1,15 +1,16 @@
-import { answerKey, PAPERCODE, PAPERNAME, SOURCE } from './data';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
-import { Link } from 'react-router-dom';
-import { useState } from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import { Link } from 'react-router-dom';
+import { useState } from 'react';
 import Response from './Response';
 import Answer from './Answer';
 import Marks from './Marks';
 
 
-function DA(){
+function Papers({ DATA }){
+
+    const { answerKey, PAPERCODE, PAPERNAME, SOURCE, Fullmarks } = DATA
     
     const [key, setKey] = useState('t1');
     const [ans, setAns] = useState(() => {
@@ -37,13 +38,13 @@ function DA(){
             <div>
                 <Tabs id="controlled-tab-example" activeKey={key} onSelect={(k) => setKey(k)} className="mb-3" >
                     <Tab eventKey="t1" title="Response">
-                        <Response PAPERCODE={PAPERCODE} ans={ans} setAns={setAns} />
+                        <Response PAPERCODE={PAPERCODE} ans={ans} setAns={setAns} answerKey={answerKey} />
                     </Tab>
                     <Tab eventKey="t3" title={`Answer Key (${SOURCE})`}>
-                        <Answer ans={ans} />
+                        <Answer ans={ans} answerKey={answerKey} />
                     </Tab>
                     <Tab eventKey="t4" title="Marks">
-                        <Marks ans={ans} />
+                        <Marks ans={ans} answerKey={answerKey} Fullmarks={Fullmarks} />
                     </Tab>
                 </Tabs>
             </div>
@@ -52,4 +53,4 @@ function DA(){
     );
 }
 
-export default DA
+export default Papers

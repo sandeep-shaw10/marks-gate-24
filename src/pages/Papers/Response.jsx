@@ -1,4 +1,4 @@
-import { answerKey, Question } from './data';
+import { Question } from '../../answerKey/common';
 import Alert from 'react-bootstrap/Alert';
 import Form from 'react-bootstrap/Form';
 import Badge from 'react-bootstrap/Badge';
@@ -7,7 +7,7 @@ import { useState } from 'react';
 import parsePasteData from '../../utils/parsePasteData';
 
 
-function Response({PAPERCODE, ans, setAns}){
+function Response({PAPERCODE, ans, setAns, answerKey}){
 
     const [show, setShow] = useState(false);
     const [error, setError] = useState(false);

@@ -5,15 +5,9 @@ import Button from 'react-bootstrap/Button';
 import Badge from 'react-bootstrap/Badge';
 import Banner1 from '../svg/Banner1';
 import { Link } from 'react-router-dom';
+import { EXAM, NOTIFICATION } from '../answerKey/data';
 
 
-const exam = [
-    { code: 'DA', examname: 'Data Science & Artificial Intelligence', link: '/da'},
-    { code: 'CS1', examname: 'Computer Science & I.T (Forenoon)', link: '/cs1'},
-    { code: 'CS2', examname: 'Computer Science & I.T (Afternoon)', link: '/cs2'}
-]
-
-const NOTIFICATION = 'Answer Key WILL be Updated Shortly'
 
 function Home() {
 
@@ -33,7 +27,7 @@ function Home() {
                         <h2>Select Examination</h2>
                         <div className='py-2'>
                             {
-                                exam.map(({code, examname, link}, key) => <div key={key} className='pb-1' >
+                                EXAM.map(({code, examname, link}, key) => <div key={key} className='pb-1' >
                                     <Link to={link}>
                                         <Button variant="info" className='w-100' >
                                             <Badge bg="light" text="dark" className='me-2'>{code}</Badge>
