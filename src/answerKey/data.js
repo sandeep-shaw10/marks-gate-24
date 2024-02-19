@@ -11,7 +11,7 @@ const EXAM = [
     // { code: TEST_DATA.PAPERCODE, examname: TEST_DATA.PAPERNAME, link: `/${TEST_DATA.LINK}`},
 ]
 
-const NOTIFICATION = 'Answer Key WILL be Updated Shortly'
+const NOTIFICATION = ''
 
 
 export { EXAM, NOTIFICATION }

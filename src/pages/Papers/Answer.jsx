@@ -66,7 +66,7 @@ function Answer({ans, answerKey}){
                             <td>
                                 {   
                                     value.mta ? <Badge bg="danger">Marks to All</Badge>:
-                                    value.type === 'NAT' ? `${value.lower} to ${value.upper}`:
+                                    value.type === 'NAT' ? `${value.lower.toFixed(value.roundOff)} to ${value.upper.toFixed(value.roundOff)}`:
                                     value.type === 'MCQ' ? `${value.A ? `A` : value.B ? `B` : value.C ? `C` : `D`}`:
                                     `${value.A ? 'A' : ''} ${value.B ? 'B' : ''} ${value.C ? 'C' : ''} ${value.D ? 'D' : ''}`
                                 }
