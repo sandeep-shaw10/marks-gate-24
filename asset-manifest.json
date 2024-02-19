@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/marks-gate-24/static/css/main.f0b20c5e.css",
-    "main.js": "/marks-gate-24/static/js/main.9c0f7c52.js",
+    "main.js": "/marks-gate-24/static/js/main.2f8df81f.js",
     "index.html": "/marks-gate-24/index.html",
     "main.f0b20c5e.css.map": "/marks-gate-24/static/css/main.f0b20c5e.css.map",
-    "main.9c0f7c52.js.map": "/marks-gate-24/static/js/main.9c0f7c52.js.map"
+    "main.2f8df81f.js.map": "/marks-gate-24/static/js/main.2f8df81f.js.map"
   },
   "entrypoints": [
     "static/css/main.f0b20c5e.css",
-    "static/js/main.9c0f7c52.js"
+    "static/js/main.2f8df81f.js"
   ]
 }
